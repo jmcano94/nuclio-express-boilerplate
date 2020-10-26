@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d35a1ba3-1f1d-4190-8df0-e5df35e61657" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1jNlnl3FsJY1UNuL95ZBllyJ5o0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend-boilerplate" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d35a1ba3-1f1d-4190-8df0-e5df35e61657" name="Default Changelist" comment="" />
+      <created>1603652598675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603652598675</updated>
+      <workItem from="1603652599898" duration="2409000" />
+      <workItem from="1603707922333" duration="7969000" />
+      <workItem from="1603733878751" duration="2017000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1013" y="446" width="524" height="497" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603707967534">
+      <screen x="0" y="0" width="2560" height="1032" />
+    </state>
+    <state x="1013" y="446" width="524" height="497" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1032/2560.0.1920.1080@0.0.2560.1032" timestamp="1603707967534" />
+    <state x="1063" y="454" width="424" height="482" key="FileChooserDialogImpl" timestamp="1603725260200">
+      <screen x="0" y="0" width="2560" height="1032" />
+    </state>
+    <state x="1063" y="454" width="424" height="482" key="FileChooserDialogImpl/0.0.2560.1032/2560.0.1920.1080@0.0.2560.1032" timestamp="1603725260200" />
+    <state x="100" y="100" width="2360" height="1192" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603713131760">
+      <screen x="0" y="0" width="2560" height="1032" />
+    </state>
+    <state x="100" y="100" width="2360" height="1192" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1032/2560.0.1920.1080@0.0.2560.1032" timestamp="1603713131760" />
+    <state x="987" y="436" width="585" height="520" key="find.popup" timestamp="1603710751227">
+      <screen x="0" y="0" width="2560" height="1032" />
+    </state>
+    <state x="987" y="436" width="585" height="520" key="find.popup/0.0.2560.1032/2560.0.1920.1080@0.0.2560.1032" timestamp="1603710751227" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1603722278884">
+      <screen x="0" y="0" width="2560" height="1032" />
+    </state>
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1032/2560.0.1920.1080@0.0.2560.1032" timestamp="1603722278884" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/mongo/index.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
