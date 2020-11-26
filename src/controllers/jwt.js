@@ -6,10 +6,16 @@ const data = require('../mongo');
 const {jwtSecret} = require("../config");
 
 const configSecurity = (app) => {
-  app.use(jwtMiddleware({ secret: jwtSecret, algorithms: ['HS256']}).unless({path: ['/token']}));
+  var unprotected = [
+    /\/track*/,
+    /favicon.ico/,
+    /token/,
+    /uploadTrack/,
+  ];
+  app.use(jwtMiddleware({ secret: jwtSecret, algorithms: ['HS256']}).unless({path: unprotected}));
   app.post('/token', async (req, res) => {
     const { email, password } = req.body;
-    const users = await data.User.find({email});
+    const users = await data.user.find({email});
 
     if (users.length === 1 && passwordHash.verify(password, users[0].sensitiveHashpass)) {
       const user = users[0];
