@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const buildDataRouter = require('./src/controllers/data').buildRouter;
 const trackRouter = require('./src/controllers/trackController').router;
+const songRouter = require('./src/controllers/songController').router;
 
 const app = express();
 const port = 3001;
@@ -24,6 +25,7 @@ configSecurity(app);
 app.use('/data', buildDataRouter());
 
 app.use('/track', trackRouter);
+app.use('/song', songRouter);
 
 
 app.listen(port, () => {

@@ -11,6 +11,7 @@ const configSecurity = (app) => {
     /favicon.ico/,
     /token/,
     /uploadTrack/,
+    /\/song*/
   ];
   app.use(jwtMiddleware({ secret: jwtSecret, algorithms: ['HS256']}).unless({path: unprotected}));
   app.post('/token', async (req, res) => {

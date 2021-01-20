@@ -3,9 +3,31 @@ const multer = require('multer');
 const mongoose = require('mongoose');
 const Grid = require('gridfs-stream');
 const { Readable } = require('stream');
+const data = require('../mongo');
 
 
 const router = Router();
+
+router.get('/song/:songId', (req, res) => {
+  return data.Song.findById(req.params.songId).then((result) => {
+    if (result) {
+      res.status(200).send(result);
+    } else {
+      res.status(404).send();
+    }
+  }).catch((err) => {
+    res.status(500).send({error: err})
+  });
+});
+
+router.get('/songList', (req, res) => {
+  return data.Song.find({})
+    .then((results) => {
+      res.send(results);
+    }).catch((err) => {
+      res.status(500).send({error: err})
+    });
+});
 
 router.get('/:trackID', (req, res) => {
   const trackID = req.params.trackID;
@@ -73,6 +95,13 @@ router.post('/', (req, res) => {
     });
 
     writestream.on('close', function (file) {
+      const newSong = new data.Song({name: trackName, trackId: id});
+      newSong.save().then((result) => {
+        console.log(result);
+      }).catch((err) => {
+        console.log(err);
+      });
+
       return res.status(201).json({message: 'File uploaded successfully', id});
     });
 
